@@ -1,6 +1,6 @@
 ## makeCacheMatrix 
 ## this function creates a special matrix, which is an object that once its inverse can be computed by cacheSolve, it can cache it
-## with the help of the scoping rules in R, it can cache its inverse that it is set to it by cacheSolve
+## with the help of the lexical scoping rules in R, it can cache its inverse that it is set to it by cacheSolve
 
 
 makeCacheMatrix <- function(x = matrix()) {
